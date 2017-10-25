@@ -1,3 +1,5 @@
 configparser
 click
 requests
+flask
+werkzeug

@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="jumbotron" id="landing-info">
+    <h1>Welcome!</h1>
+    <hr>
+    <p>
+        <em>Labelord</em> is simple tool for management of issue labels for GitHub repositories.
+        Server part serves for master-to-master replication of labels thanks to webhooks. It propagates
+        labels changes within group of selected repositories. Cool huh?!
+    </p>
+
+    <p>
+        This project has started as a semester work during advanced Python course
+        <a href="https://github.com/cvut/MI-PYT/" target="_blank">MI-PYT @ FIT CTU in Prague</a>.
+    </p>
+
+    <hr>
+
+    <h2>Instructions</h2>
+
+        Create webhook @GitHub for your repositories with:
+    <dl class="dl-horizontal">
+        <dt>Payload URL</dt>
+        <dd><code>{{ url_for('hook_accept', _external=True) }}</code></dd>
+        <dt>Content type</dt>
+        <dd><code>application/json</code></dd>
+        <dt>Secret</dt>
+        <dd>The secret from config file!</dd>
+        <dt>Content type</dt>
+        <dd>Select event <strong>Label</strong> or more...</dd>
+    </dl>
+
+    <hr>
+
+    <h2>Repositories</h2>
+    <p>
+        Application is running currently for following repositories (from config file):
+    </p>
+
+    <table class="table table-striped">
+        {% for repo in repos %}
+        <tr>
+            <td>{{ repo }}</td>
+            <td align="right">
+                <a href="https://github.com/{{ repo }}" target="_blank" class="btn btn-primary"><span
+                        class="octicon octicon-octoface"></span> GitHub</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

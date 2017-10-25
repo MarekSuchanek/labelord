@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+}
+body{
+    padding-top: 60px;
+}
+.colorbox{
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid black;
+}

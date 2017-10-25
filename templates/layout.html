@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Marek Suchánek">
+    <title>Labelord</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/octicons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css"/>
+</head>
+<body>
+    <main>
+        <div id="content">
+            <div class="container">
+                {% include "header.html" %}
+
+                {% block body %}{% endblock %}
+            </div>
+        </div>
+    </main>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
