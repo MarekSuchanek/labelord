@@ -6,6 +6,15 @@ Global multi-project management of GitHub labels (`MI-PYT@FIT CTU`_ project)
 
 --------------------------------------------------------------------------------
 
+Installation
+------------
+
+You have multiple options how to install **labelord**:
+
+1. ``python setup.py install`` (stable if you use released version, e.g. ``v0.3``)
+2. ``pip install labelord`` (stable)
+3. ``pip install --extra-index-url https://test.pypi.org/pypi labelord-suchama4`` (bleeding edge/unstable)
+
 Usage
 -----
 
@@ -26,6 +35,11 @@ Config
 ------
 
 See included config file what are the options. You will need a personal GitHub token for using this application. You can get your token at https://github.com/settings/tokens. But be careful where you place it!
+
+Tests
+-----
+
+Tests are currently provided in separate repository within multiple branched and with explanation: https://github.com/MarekSuchanek/labelord_tests
 
 License
 -------
