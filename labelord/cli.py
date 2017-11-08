@@ -129,5 +129,5 @@ def run_server(ctx, host, port, debug):
     app.run(host=host, port=port, debug=debug)
 
 
-if __name__ == '__main__':
+def main():
     cli(obj={})

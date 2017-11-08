@@ -23,7 +23,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'labelord = labelord:cli',
+            'labelord = labelord:main',
         ]
     },
     install_requires=[

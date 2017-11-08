@@ -1,3 +1,3 @@
-from labelord.cli import cli
+from labelord.cli import main
 
-cli(obj={})
+main()
