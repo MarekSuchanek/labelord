@@ -1,2 +1,4 @@
 include LICENSE
 include config.example.cfg
+include pytest.ini
+recursive-include tests *

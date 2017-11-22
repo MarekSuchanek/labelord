@@ -1,0 +1,152 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:42",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "PATCH",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#update-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "107",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:19:41 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D6FA:295F:949870:14C0E05:5A0EFE0D",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4907",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.029451",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:52",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "PATCH",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#update-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "107",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:20:52 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D71C:2961:15C9F11:2A8C1DC:5A0EFE54",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4893",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.023265",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:28",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "PATCH",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#update-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "107",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:27:28 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D766:295F:95171A:14D2271:5A0EFFDF",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4987",
+          "X-RateLimit-Reset": "1510935883",
+          "X-Runtime-rack": "0.048681",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}

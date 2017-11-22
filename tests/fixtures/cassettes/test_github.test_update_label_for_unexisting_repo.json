@@ -1,0 +1,152 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:43",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing 2\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "40",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "PATCH",
+        "uri": "https://api.github.com/repos/MarekSuchanek/adsw51dwa1d5123aa/labels/Testing%202"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "77",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:19:43 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "repo",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D6FE:295F:9498DA:14C0EF0:5A0EFE0F",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4905",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.021467",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/adsw51dwa1d5123aa/labels/Testing%202"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:54",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing 2\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "40",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "PATCH",
+        "uri": "https://api.github.com/repos/MarekSuchanek/adsw51dwa1d5123aa/labels/Testing%202"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "77",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:20:53 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "repo",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D720:2966:FE0CE4:2BA329A:5A0EFE55",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4891",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.025989",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/adsw51dwa1d5123aa/labels/Testing%202"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:30",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing 2\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "40",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "PATCH",
+        "uri": "https://api.github.com/repos/MarekSuchanek/adsw51dwa1d5123aa/labels/Testing%202"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "77",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:27:30 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "repo",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D76A:2966:FEB2F3:2BBDC0E:5A0EFFE1",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4985",
+          "X-RateLimit-Reset": "1510935883",
+          "X-Runtime-rack": "0.044190",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/adsw51dwa1d5123aa/labels/Testing%202"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}

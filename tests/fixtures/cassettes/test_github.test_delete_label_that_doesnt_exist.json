@@ -1,0 +1,152 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:45",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "0",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "DELETE",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#delete-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "107",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:19:44 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D702:2966:FDF0B0:2B9E84E:5A0EFE10",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4903",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.028398",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:55",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "0",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "DELETE",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#delete-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "107",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:20:55 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D724:2965:E21D2B:1DCDBB2:5A0EFE56",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4889",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.028965",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:31",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "0",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "DELETE",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Not Found\",\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#delete-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "107",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:27:31 GMT",
+          "Server": "GitHub.com",
+          "Status": "404 Not Found",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D76E:2961:15D5AA7:2AA5298:5A0EFFE2",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4983",
+          "X-RateLimit-Reset": "1510935883",
+          "X-Runtime-rack": "0.026120",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}

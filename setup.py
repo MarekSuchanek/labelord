@@ -6,7 +6,7 @@ with open('README.rst') as f:
 setup(
     name='labelord_suchama4',
     version='0.3',
-    keywords='github labels management replication cli web',
+    keywords='github labels management replication',
     description='Simple CLI and WEB tools for managing GitHub labels',
     long_description=long_description,
     author='Marek Suchánek',
@@ -17,6 +17,7 @@ setup(
     packages=find_packages(),
     package_data={
         'labelord': [
+            'static/*.js',
             'static/*.css',
             'templates/*.html',
         ]
@@ -27,9 +28,22 @@ setup(
         ]
     },
     install_requires=[
+        'configparser',
         'click',
         'Flask',
         'requests',
+    ],
+    setup_requires=[
+        'pytest-runner',
+    ],
+    tests_require=[
+        'betamax',
+        'betamax-serializers',
+        'flexmock',
+        'pytest',
+        'pytest-flake8',
+        'pytest-sugar',
+        'pytest-cov',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',

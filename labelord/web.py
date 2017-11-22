@@ -49,6 +49,7 @@ class LabelordWeb(flask.Flask):
             config_filename=config_filename
         )
         self._check_config()
+        self.github.token = self.labelord_config.get('github', 'token')
 
     @property
     def repos(self):

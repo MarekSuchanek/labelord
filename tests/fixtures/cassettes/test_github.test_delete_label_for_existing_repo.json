@@ -1,0 +1,149 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:44",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "0",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "DELETE",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing%202"
+      },
+      "response": {
+        "body": {
+          "encoding": null,
+          "string": ""
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/octet-stream",
+          "Date": "Fri, 17 Nov 2017 15:19:44 GMT",
+          "Server": "GitHub.com",
+          "Status": "204 No Content",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D700:295F:949909:14C0F55:5A0EFE0F",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4904",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.039946",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 204,
+          "message": "No Content"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing%202"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:54",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "0",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "DELETE",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing%202"
+      },
+      "response": {
+        "body": {
+          "encoding": null,
+          "string": ""
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/octet-stream",
+          "Date": "Fri, 17 Nov 2017 15:20:54 GMT",
+          "Server": "GitHub.com",
+          "Status": "204 No Content",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D722:295F:94AB29:14C38E3:5A0EFE56",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4890",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.040323",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 204,
+          "message": "No Content"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing%202"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:30",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "0",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "DELETE",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing%202"
+      },
+      "response": {
+        "body": {
+          "encoding": null,
+          "string": ""
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/octet-stream",
+          "Date": "Fri, 17 Nov 2017 15:27:30 GMT",
+          "Server": "GitHub.com",
+          "Status": "204 No Content",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D76C:2966:FEB340:2BBDCDC:5A0EFFE2",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4984",
+          "X-RateLimit-Reset": "1510935883",
+          "X-Runtime-rack": "0.055292",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 204,
+          "message": "No Content"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing%202"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}

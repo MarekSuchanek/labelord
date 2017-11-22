@@ -1,0 +1,164 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:37",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "POST",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"id\":753520416,\"url\":\"https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing\",\"name\":\"Testing\",\"color\":\"aaaaaa\",\"default\":false}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Cache-Control": "private, max-age=60, s-maxage=60",
+          "Content-Length": "141",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:19:36 GMT",
+          "ETag": "\"12ac13b2b80fc03404fe0952d6003c26\"",
+          "Location": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing",
+          "Server": "GitHub.com",
+          "Status": "201 Created",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "Vary": "Accept, Authorization, Cookie, X-GitHub-OTP",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D6EE:2965:E20136:1DCA020:5A0EFE08",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4912",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.037938",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 201,
+          "message": "Created"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:48",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "POST",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"id\":753521625,\"url\":\"https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing\",\"name\":\"Testing\",\"color\":\"aaaaaa\",\"default\":false}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Cache-Control": "private, max-age=60, s-maxage=60",
+          "Content-Length": "141",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:20:48 GMT",
+          "ETag": "\"b5516a7dc5493390a3c56c371dfab999\"",
+          "Location": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing",
+          "Server": "GitHub.com",
+          "Status": "201 Created",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "Vary": "Accept, Authorization, Cookie, X-GitHub-OTP",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D710:2961:15C9C94:2A8BCC3:5A0EFE4F",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4898",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.045147",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 201,
+          "message": "Created"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:23",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "POST",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"id\":753527535,\"url\":\"https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing\",\"name\":\"Testing\",\"color\":\"aaaaaa\",\"default\":false}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Cache-Control": "private, max-age=60, s-maxage=60",
+          "Content-Length": "141",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:27:23 GMT",
+          "ETag": "\"b4c35e44e3538e3a934f81bda440c3f1\"",
+          "Location": "https://api.github.com/repos/MarekSuchanek/labelord/labels/Testing",
+          "Server": "GitHub.com",
+          "Status": "201 Created",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "Vary": "Accept, Authorization, Cookie, X-GitHub-OTP",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D75A:2966:FEAFD7:2BBD45F:5A0EFFDA",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4992",
+          "X-RateLimit-Reset": "1510935883",
+          "X-Runtime-rack": "0.023063",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 201,
+          "message": "Created"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}

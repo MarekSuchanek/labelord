@@ -1,0 +1,143 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:36",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token <BAD_TOKEN>",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "GET",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels?per_page=100&page=1"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Bad credentials\",\"documentation_url\":\"https://developer.github.com/v3\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "83",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:19:36 GMT",
+          "Server": "GitHub.com",
+          "Status": "401 Unauthorized",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D6EC:2966:FDED6B:2B9DF3A:5A0EFE07",
+          "X-RateLimit-Limit": "60",
+          "X-RateLimit-Remaining": "32",
+          "X-RateLimit-Reset": "1510932149",
+          "X-Runtime-rack": "0.014152",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 401,
+          "message": "Unauthorized"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels?per_page=100&page=1"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:47",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token ",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "GET",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels?per_page=100&page=1"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Bad credentials\",\"documentation_url\":\"https://developer.github.com/v3\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "83",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:20:47 GMT",
+          "Server": "GitHub.com",
+          "Status": "401 Unauthorized",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D70E:2961:15C9C13:2A8BBDB:5A0EFE4E",
+          "X-RateLimit-Limit": "60",
+          "X-RateLimit-Remaining": "29",
+          "X-RateLimit-Reset": "1510932149",
+          "X-Runtime-rack": "0.013787",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 401,
+          "message": "Unauthorized"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels?per_page=100&page=1"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:22",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": "token ",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "GET",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels?per_page=100&page=1"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Bad credentials\",\"documentation_url\":\"https://developer.github.com/v3\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "83",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:27:22 GMT",
+          "Server": "GitHub.com",
+          "Status": "401 Unauthorized",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D758:2961:15D56EC:2AA4A25:5A0EFFD9",
+          "X-RateLimit-Limit": "60",
+          "X-RateLimit-Remaining": "58",
+          "X-RateLimit-Reset": "1510936039",
+          "X-Runtime-rack": "0.013138",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 401,
+          "message": "Unauthorized"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels?per_page=100&page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}

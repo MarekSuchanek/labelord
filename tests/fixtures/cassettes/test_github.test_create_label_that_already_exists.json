@@ -1,0 +1,152 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2017-11-17T15:19:37",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "POST",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Validation Failed\",\"errors\":[{\"resource\":\"Label\",\"code\":\"already_exists\",\"field\":\"name\"}],\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#create-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "186",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:19:37 GMT",
+          "Server": "GitHub.com",
+          "Status": "422 Unprocessable Entity",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D6F0:295F:949725:14C0B4B:5A0EFE09",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4911",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.029643",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 422,
+          "message": "Unprocessable Entity"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:20:48",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "POST",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Validation Failed\",\"errors\":[{\"resource\":\"Label\",\"code\":\"already_exists\",\"field\":\"name\"}],\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#create-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "186",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:20:48 GMT",
+          "Server": "GitHub.com",
+          "Status": "422 Unprocessable Entity",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D712:2966:FE0B01:2BA2D42:5A0EFE50",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4897",
+          "X-RateLimit-Reset": "1510932147",
+          "X-Runtime-rack": "0.026759",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 422,
+          "message": "Unprocessable Entity"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      }
+    },
+    {
+      "recorded_at": "2017-11-17T15:27:24",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"Testing\", \"color\": \"aaaaaa\"}"
+        },
+        "headers": {
+          "Authorization": "token <TOKEN>",
+          "Content-Length": "38",
+          "User-Agent": "Python/Labelord"
+        },
+        "method": "POST",
+        "uri": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"message\":\"Validation Failed\",\"errors\":[{\"resource\":\"Label\",\"code\":\"already_exists\",\"field\":\"name\"}],\"documentation_url\":\"https://developer.github.com/v3/issues/labels/#create-a-label\"}"
+        },
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+          "Content-Length": "186",
+          "Content-Security-Policy": "default-src 'none'",
+          "Content-Type": "application/json; charset=utf-8",
+          "Date": "Fri, 17 Nov 2017 15:27:24 GMT",
+          "Server": "GitHub.com",
+          "Status": "422 Unprocessable Entity",
+          "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+          "X-Accepted-OAuth-Scopes": "",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "deny",
+          "X-GitHub-Media-Type": "github.v3; format=json",
+          "X-GitHub-Request-Id": "D75C:2961:15D5782:2AA4B8D:5A0EFFDB",
+          "X-OAuth-Scopes": "public_repo",
+          "X-RateLimit-Limit": "5000",
+          "X-RateLimit-Remaining": "4991",
+          "X-RateLimit-Reset": "1510935883",
+          "X-Runtime-rack": "0.025836",
+          "X-XSS-Protection": "1; mode=block"
+        },
+        "status": {
+          "code": 422,
+          "message": "Unprocessable Entity"
+        },
+        "url": "https://api.github.com/repos/MarekSuchanek/labelord/labels"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.0"
+}
