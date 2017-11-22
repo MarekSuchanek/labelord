@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name='labelord_suchama4',
-    version='0.3',
+    version='0.4',
     keywords='github labels management replication',
     description='Simple CLI and WEB tools for managing GitHub labels',
     long_description=long_description,

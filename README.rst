@@ -2,6 +2,9 @@
 Labelord
 ========
 
+|license| |travis| |pypi|
+
+
 Global multi-project management of GitHub labels (`MI-PYT@FIT CTU`_ project)
 
 --------------------------------------------------------------------------------
@@ -50,3 +53,13 @@ file for more details.
 .. _MI-PYT@FIT CTU: https://github.com/cvut/MI-PYT
 .. _cvut/MI-PYT: https://github.com/cvut/MI-PYT
 .. _LICENSE: LICENSE
+
+.. |license| image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :alt: License
+    :target: LICENSE
+.. |travis| image:: https://travis-ci.org/MarekSuchanek/labelord.svg?branch=master
+    :alt: Build Status
+    :target: https://travis-ci.org/MarekSuchanek/labelord
+.. |pypi| image:: https://badge.fury.io/py/labelord.svg
+    :alt: PyPi Version
+    :target: https://badge.fury.io/py/labelord

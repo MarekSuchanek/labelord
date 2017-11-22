@@ -39,7 +39,7 @@ def pick_runner(dry_run):
               help='Path of the auth config file.')
 @click.option('--token', '-t', envvar='GITHUB_TOKEN',
               help='GitHub API token.')  # prompt would be better,
-@click.version_option(version='0.3',
+@click.version_option(version='0.4',
                       prog_name='labelord')
 @click.pass_context
 def cli(ctx, config, token):
